@@ -1,0 +1,6 @@
+{
+  "name": "G-VPN",
+  "description": "GYLITO VPN Smart Engine V6 — Dual Connection Engine (SSH Tunnel & TLS/SNI Tunnel), Mobile Network Transport Monitor, Background VpnService, Extreme Speed TUN Engine, and Real Device Benchmark V6.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

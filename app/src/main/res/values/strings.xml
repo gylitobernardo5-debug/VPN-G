@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">G-VPN</string>
+    <string name="app_subtitle">GYLITO VPN SMART ENGINE V6</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Painel</string>
+    <string name="nav_config">Config</string>
+    <string name="nav_benchmark">Benchmark</string>
+    <string name="nav_logs">Logs</string>
+
+    <!-- Connection States -->
+    <string name="state_connected">CONECTADO</string>
+    <string name="state_disconnected">DESCONECTADO</string>
+    <string name="state_connecting">A CONECTAR</string>
+    <string name="state_reconnecting">A RECONECTAR</string>
+    <string name="state_error">ERRO</string>
+
+    <!-- Power Actions -->
+    <string name="action_connect">LIGAR</string>
+    <string name="action_disconnect">DESLIGAR</string>
+    <string name="action_cancel">CANCELAR</string>
+
+    <!-- Smart Engine Modes -->
+    <string name="mode_auto">AUTO</string>
+    <string name="mode_ssh">SSH</string>
+    <string name="mode_tls">TLS</string>
+    <string name="mode_auto_desc">Smart Engine — Melhor método verificado</string>
+    <string name="mode_ssh_desc">Prioridade SSH Tunnel (fallback TLS)</string>
+    <string name="mode_tls_desc">Prioridade TLS/SNI Tunnel (fallback SSH)</string>
+
+    <!-- Telemetry Labels -->
+    <string name="label_download">DOWNLOAD</string>
+    <string name="label_upload">UPLOAD</string>
+    <string name="label_ping">PING</string>
+    <string name="label_public_ip">IP PÚBLICO</string>
+    <string name="label_duration">DURAÇÃO</string>
+    <string name="label_server">SERVIDOR ATIVO</string>
+    <string name="label_method">MÉTODO</string>
+    <string name="label_transport">TRANSPORTE MÓVEL</string>
+    <string name="label_packet_loss">PERDA</string>
+
+    <!-- Config Labels -->
+    <string name="config_title">Dual Connection Engine</string>
+    <string name="config_ssh_section">Motor SSH Tunnel</string>
+    <string name="config_tls_section">Motor TLS / SNI Tunnel</string>
+    <string name="config_speed_section">Extreme Speed Engine</string>
+    <string name="config_save">GUARDAR CONFIGURAÇÃO</string>
+    <string name="config_saved_msg">Configuração guardada com segurança.</string>
+    <string name="config_transport_notice">Aviso de Transporte: A rede móvel (4G/LTE/5G) fornece o transporte IP. O SNI e o SSH exigem um servidor/gateway real configurado e acessível — o SNI por si só não cria internet gratuita.</string>
+
+    <!-- Benchmark V6 -->
+    <string name="benchmark_title">Benchmark &amp; Gargalos V6</string>
+    <string name="benchmark_start">INICIAR TESTE</string>
+    <string name="benchmark_stop">PARAR TESTE</string>
+    <string name="benchmark_running">A EXECUTAR EM SEGUNDO PLANO…</string>
+    <string name="benchmark_score_label">SCORE V6</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">G-VPN Serviço de Túnel</string>
+    <string name="notif_channel_desc">Estado persistente da ligação G-VPN em segundo plano</string>
+    <string name="notif_disconnect">Desligar</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_power_button">Botão central ligar ou desligar G-VPN</string>
+    <string name="cd_toggle_password">Mostrar ou ocultar palavra-passe</string>
+    <string name="cd_clear_logs">Limpar registos de diagnóstico</string>
+    <string name="cd_refresh_ip">Atualizar IP público</string>
+</resources>
